@@ -1,0 +1,40 @@
+{
+  "dependencies": {
+    "@devextreme/runtime": "3.0.12",
+    "devexpress-diagram": "2.2.15",
+    "devexpress-gantt": "4.1.59",
+    "devextreme": "24.2.5",
+    "devextreme-aspnet-data-nojquery": "5.0.0",
+    "devextreme-cldr-data": "1.0.3",
+    "devextreme-quill": "1.7.1",
+    "devextreme-react": "24.2.5",
+    "es6-object-assign": "latest",
+    "inferno": "7.4.11",
+    "inferno-clone-vnode": "latest",
+    "inferno-compat": "latest",
+    "inferno-create-class": "latest",
+    "inferno-create-element": "7.4.11",
+    "inferno-dom": "latest",
+    "inferno-extras": "latest",
+    "inferno-hydrate": "latest",
+    "jszip": "3.10.1",
+    "luxon": "3.4.4",
+    "prettier": "2.8.8",
+    "prop-types": "latest",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "rrule": "2.6.4"
+  },
+  "description": "The DataGrid component can highlight the focused row. To enable this feature, set the focusedRowEnabled property to true.\nTo focus a row programmatically, specify the focusedRowKey property. The DataGrid automatically scrolls to the focused row if the autoNavigateToFocusedRow property is enabled. In the UI, users can click a row to focus it. The focused row is saved in the DataGrid's state.\nYou can use the onFocusedRowChanging or onFocusedRowChanged property to specify a custom function that is executed before or after a row is focused.\nIn this demo, the row with the  key is focused initially. You can specify the  and  properties via the input field and the checkbox below the DataGrid.117focusedRowKeyautoNavigateToFocusedRow\n",
+  "name": "focused-row-forked",
+  "version": "0.0.1",
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
